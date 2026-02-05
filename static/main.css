@@ -1,20 +1,18 @@
-/* RESET BÁSICO */
+
 body {
     margin: 20px;
     font-family: Arial, sans-serif;
-    background: #f8f9fa;
+    background: #f2f3f6;
 }
 
-/* CONTAINER PRINCIPAL */
 .app {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-/* CABEÇALHO */
 header {
-    background: #0066cc;
-    color: white;
+    background: #222323;
+    color: #f1f2f3;
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -25,7 +23,6 @@ header h1 {
     text-align: center;
 }
 
-/* TABELA */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -34,7 +31,6 @@ table {
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-/* CABEÇALHO DA TABELA */
 thead {
     background: #333;
     color: white;
@@ -46,12 +42,10 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
-/* LINHAS DA TABELA */
 tbody tr:hover {
     background: #f5f5f5;
 }
 
-/* LINKS DE AÇÃO */
 td a {
     text-decoration: none;
     margin-right: 10px;
@@ -60,19 +54,17 @@ td a {
     border-radius: 3px;
 }
 
-/* CORES DOS LINKS DE AÇÃO */
-td a:nth-child(1) { color: #0066cc; } /* Visualizar - Azul */
-td a:nth-child(2) { color: #28a745; } /* Editar - Verde */
-td a:nth-child(3) { color: #dc3545; } /* Apagar - Vermelho */
+td a:nth-child(1) { color: #0066cc; } 
+td a:nth-child(2) { color: #28a745; } 
+td a:nth-child(3) { color: #dc3545; } 
 
-/* BOTÃO NOVO FUNCIONÁRIO */
 .novo-botao {
     text-align: right;
 }
 
 .novo-botao a {
     display: inline-block;
-    background: #28a745;
+    background: #0883e1;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -80,5 +72,5 @@ td a:nth-child(3) { color: #dc3545; } /* Apagar - Vermelho */
 }
 
 .novo-botao a:hover {
-    background: #218838;
+    background: #0883e1;
 }

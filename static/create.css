@@ -73,12 +73,12 @@ body {
 }
 
 .botao-primario {
-    background: #27ae60;
+    background: #0883e1;
     color: white;
 }
 
 .botao-primario:hover {
-    background: #219653;
+    background: #0883e1;
 }
 
 .botao-secundario {

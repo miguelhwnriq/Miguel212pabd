@@ -7,14 +7,11 @@
 </head>
 <body>
     <div class="app">
-        <!-- CABEÇALHO -->
         <header>
             <h1>{{ app_name }}</h1>
         </header>
         
-        <!-- CONTEÚDO PRINCIPAL -->
         <main>
-            <!-- TABELA -->
             <table>
                 <thead>
                     <tr>
@@ -31,15 +28,14 @@
                         <td>{{ f.pnome }}</td>
                         <td>{{ f.unome }}</td>
                         <td>
-                            <!-- LINKS DE AÇÃO -->
                             <a href="{{ url_for('details', pk='cpf', id=f.cpf) }}" title="Ver detalhes">
-                                👁️
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f441.png" width=20 height=20>
                             </a>
                             <a href="{{ url_for('update', pk=f.cpf) }}" title="Editar">
-                                ✏️
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/270d.png" width=20 height=20>
                             </a>
                             <a href="{{ url_for('delete', pk=f.cpf) }}" title="Apagar">
-                                🗑️
+                                <img src="https://pic.sopili.net/pub/emoji/twitter/2/72x72/1f5d1.png" width=20 height=20>
                             </a>
                         </td>
                     </tr>
@@ -47,10 +43,9 @@
                 </tbody>
             </table>
             
-            <!-- BOTÃO NOVO -->
             <div class="novo-botao">
                 <a href="{{ url_for('create') }}">
-                    ➕ Novo Funcionário
+                    Novo Funcionário
                 </a>
             </div>
         </main>
