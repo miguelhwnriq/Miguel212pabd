@@ -10,7 +10,7 @@ client = SupabaseConnection().client
 
 @app.route("/")
 def index():
-    return render_template("index.html", title="CRUD LEGAL", app_name="TABELA DE USER", funcionarios=funcionario_dao.read_all())
+    return render_template("index.html", title="CRUD ATIVIDADE", app_name="EMPRESA INFORMÁTICA", funcionarios=funcionario_dao.read_all())
 
 funcionario_dao = FuncionarioDAO(client)
 
